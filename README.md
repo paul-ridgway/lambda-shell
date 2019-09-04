@@ -7,14 +7,13 @@ via an interactive shell / terminal.
 ![VideoGif](https://raw.githubusercontent.com/iopipe/lambda-shell/master/contrib/demo.gif)
 
 Requirements:
- - Apex (http://apex.run)
+ - Serverless (https://serverless.com/)
  - Amazon AWS account
 
 # Installation
 
-1. Modify project.json to include your own IAM role.
-2. Install npm modules: `cd functions/exec; npm install`
-3. Deploy to AWS with `apex deploy exec`.
+1. Install npm modules: `npm install`
+2. Deploy to AWS with `sls deploy`.
 
 # Usage
 
@@ -51,3 +50,4 @@ Exit the shell using Ctrl-C.
 Apache-2.0
 
 Copyright 2016  IOpipe, Inc.
+Ported to Serverless 2019, Paul Ridgway
